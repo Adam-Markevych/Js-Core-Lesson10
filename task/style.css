@@ -1,0 +1,170 @@
+/*Мінімальне скидування стилів*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 30px;
+    max-width: 920px;
+    margin: 0 auto;
+}
+.block-content{
+    background-color: rgb(138, 138, 138);
+    padding: 20px 20px 50px;
+}
+.block-content p{
+    line-height: 40px;
+}
+.block-button{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.btn-edit,.btn-style,.btn-add,.btn-save{
+    width: 70px;
+    height: 40px;
+}
+.btn-edit{
+    background-color: rgb(111, 27, 189);
+}
+.btn-style{
+    background-color: blue;
+    margin-left: 20px;
+}
+.block-bottom{
+    background-color: rgb(138, 138, 138);
+    padding: 20px;
+    height: 240px;
+    position: relative;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+.block-style{
+    display: none;
+}
+.btn-add{
+    background-color: rgb(255, 0, 0);
+}
+.btn-save{
+    background-color: rgb(0, 129, 0);
+}
+.block-settings{
+    display: none;
+}
+
+.back-colors,.colors{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    display: none;
+}
+.color{
+    width: 33.3%;
+    height: 49.3px;
+    border: 1px solid black;
+}
+
+.color:nth-child(1){
+    background-color: rgb(255, 0, 0);
+}
+.color:nth-child(2){
+    background-color: rgb(255, 136, 0);
+}
+.color:nth-child(3){
+    background-color: rgb(255, 230, 0);
+}
+.color:nth-child(4){
+    background-color: rgb(166, 255, 0);
+}
+.color:nth-child(5){
+    background-color: rgb(0, 209, 87);
+}
+.color:nth-child(6){
+    background-color: rgb(18, 107, 0);
+}
+.color:nth-child(7){
+    background-color: rgb(0, 255, 234);
+}
+.color:nth-child(8){
+    background-color: rgb(0, 0, 0);
+}
+.color:nth-child(9){
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-color-of-text,.btn-back-color{
+    height: 40px;
+    padding: 0 20px 0 20px;
+    background-color: rgb(204, 204, 197);
+}
+
+
+.container-add{
+    max-width: 920px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: rgb(138, 138, 138);
+    padding: 30px;
+    display: none;
+}
+.table-list{
+    display: none;
+}
+.list{
+    margin-left: 50px;
+}
+.table-flex{
+    display: flex;
+    margin-top: 20px;
+}
+.count-td input,.count-tr input{
+    margin-left: 40px;
+    width: 100%;
+}
+.width-of-td input,.height-of-td input{
+    width: 100%;
+    margin-left: 25px;
+}
+
+.width-of-border h4,.type-of-border h4,.color-of-border h4{
+    margin-left: 10px;
+}
+.width-of-border h4{
+    margin-left: 0;
+}
+.create-table{
+    display: none;
+}
+.create-table h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-create-table,.btn-create-list{
+    margin-top: 15px;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+}
+.create-list{
+    display: none;
+}
+.q{
+    width: 100%;
+    margin-left: 50px;
+}
+.markers{
+    margin-left: 27px;
+}
+.block-show{
+    display: block;
+}

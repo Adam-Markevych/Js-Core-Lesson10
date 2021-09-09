@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>task</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block-top">
+            <div class="block block-content">
+                <div class="paragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+        </div>
+        <div class="block-center">
+            <div class="block block-button">
+                <input type="button" value="edit" class="btn-edit">
+                <input type="button" value="style" class="btn-style">
+            </div>
+        </div>
+        <div class="block-bottom">
+            <div class=" block block-settings">
+                <textarea class="edit-area"></textarea>
+                <input type="button" value="add" class="btn-add">
+                <input type="button" value="save" class="btn-save">
+            </div>
+            <div class="block-style">
+                <div class="block-size">
+                    <h3>Font Size:</h3>
+                    <input type="radio" name="size" value="12px"><span>12px</span>
+                    <input type="radio" name="size" value="14px"><span>14px</span>
+                    <input type="radio" name="size" value="16px" checked><span>16px</span>
+                    <input type="radio" name="size" value="18px"><span>18px</span>
+                    <input type="radio" name="size" value="20px"><span>20px</span>
+                </div>
+                <div class="block-family">
+                    <h3>Font Family:</h3>
+                    <select class="family">
+                        <option value="">Choose option</option>
+                        <option value="cursive">cursive</option>
+                        <option value="fantasy">fantasy</option>
+                        <option value="monospace">monospace</option>
+                        <option value="sans-serif">sans-serif</option>
+                    </select>
+                </div>
+                <div class="block-color">
+                    <h3>Colors:</h3>
+                    <input type="button" value="Color of Text" class="btn-color-of-text">
+                    <input type="button" value="Background color" class="btn-back-color">
+                    <div class="back-colors">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="colors">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                    </div>
+                </div>
+                <div class="style-block">
+                    <h3>Style:</h3>
+                    <form name="form1">
+                        <input type="checkbox" name="checkbold" class="check-bold"><span>Bold Text</span>
+                        <input type="checkbox" name="check" class="check-cursive"><span>Cursive Text</span>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-add">
+        <input type="radio" name="add" value="table" class="table"><span>table</span>
+        <input type="radio" name="add" value="list" class="list"><span>list</span>
+        <div class="create-table">
+            <form action="" name="form">
+                <div class="count-tr table-flex">
+                    <h4>Count TR:</h4>
+                    <input type="text" class="name" name="n1">
+                </div>
+                <div class="count-td table-flex">
+                    <h4>Count TD:</h4>
+                    <input type="text" class="name" name="n2">
+                </div>
+                <h3>Add style to your table:</h3>
+                <div class="width-of-td table-flex">
+                    <h4>Width of TD:</h4>
+                    <input type="text" class="name" name="n3">
+                </div>
+                <div class="height-of-td table-flex">
+                    <h4>Height of TD:</h4>
+                    <input type="text" class="name" name="n4">
+                </div>
+                <div class="width-border table-flex">
+                    <div class="width-of-border table-flex">
+                        <h4>Width of border:</h4>
+                        <input type="text" class="name" name="n5">
+                    </div>
+                    <div class="type-of-border table-flex">
+                        <h4>Type of border:</h4>
+                        <select class="table-border" name="n6">
+                            <option value="solid">solid</option>
+                            <option value="dashed">dashed</option>
+                            <option value="dotted">dotted</option>
+                        </select>
+                    </div>
+                    <div class="color-of-border table-flex">
+                        <h4>color of border:</h4>
+                        <select class="border-color" name="n7">
+                            <option value="red">red</option>
+                            <option value="green">green</option>
+                            <option value="orange">orange</option>
+                            <option value="blue">blue</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <input type="button" value="Create table" class="btn-create-table">
+        </div>
+        <div class="create-list">
+            <form name=form2>
+                <div class="CountLi table-flex">
+                    <h4>Count Li:</h4>
+                    <input type="text" name="li" class="li q">
+                </div>
+                <div class="typeofmarks table-flex">
+                    <h4>Type of mars:</h4>
+                    <select name="mark" class="markers q">
+                        <option value="circle">circle</option>
+                        <option value="disc">disc</option>
+                        <option value="square">square</option>
+                    </select>
+                </div>
+            </form>
+            <input type="button" value="Create list" class="btn-create-list">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
